@@ -9,7 +9,7 @@
   /* height: 200px; */
 }
 
-.container {
+.jumbotron .container {
 margin-top:-20px;
   position: relative;
   color: #ffffff;
@@ -28,4 +28,4 @@ margin-top:-20px;
   transform: translate3d(-50%, -50%, 0);
   z-index: 1;
 }
-@media screen and (min-width: 480px) {.container {margin-top:20px;}}
+@media screen and (min-width: 480px) {.jumbotron .container {margin-top:20px;}}
