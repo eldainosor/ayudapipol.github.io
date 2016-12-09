@@ -1,1 +1,30 @@
-.jumbotron {background:rgba(0,0,0,0.64)!important;height:400px;}
+.jumbotron {background:rgba(0,0,0,0.50)!important}
+
+.jumbotron,.jumbg{
+  position: relative;
+    overflow: hidden;
+    height: 75vh;
+ 
+  /* Tried setting the height. Didnt work either */
+  /* height: 200px; */
+}
+
+.container {
+	margin-top:7vh;
+  position: relative;
+  color: #ffffff;
+  z-index: 2;
+}
+
+#video-background{ 
+  position: absolute;
+  height: auto;
+  width: auto;
+  min-height: 100%;
+  min-width: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  z-index: 1;
+}
