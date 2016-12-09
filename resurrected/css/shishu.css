@@ -3,14 +3,14 @@
 .jumbotron,.jumbg{
   position: relative;
     overflow: hidden;
-    height: 75vh;
+    height: 450px;
  
   /* Tried setting the height. Didnt work either */
   /* height: 200px; */
 }
 
 .container {
-	margin-top:7vh;
+	margin-top:20px;
   position: relative;
   color: #ffffff;
   z-index: 2;
