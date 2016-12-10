@@ -41,5 +41,7 @@ body {background-color:black;}
 
 .mdi-fix {margin-bottom:4px!important;margin-right:5px!important;}
 
-.code-changelog {font-family: 'Roboto Mono', monospace;}
+.code-changelog, .card-block ul li {font-family: 'Roboto Mono', monospace;}
+.card-block ul {list-style-type:none}
+
 
