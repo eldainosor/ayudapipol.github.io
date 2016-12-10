@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
 .jumbotron {background:rgba(0,0,0,0.64)!important}
 
 .jumbotron,.jumbg{
@@ -39,4 +41,5 @@ body {background-color:black;}
 
 .mdi-fix {margin-bottom:4px!important;margin-right:5px!important;}
 
-pre {background:transparent!important;color:#fff!important;}
+.code-changelog {font-family: 'Roboto Mono', monospace;}
+
