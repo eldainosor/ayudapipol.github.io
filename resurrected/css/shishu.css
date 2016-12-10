@@ -1,4 +1,4 @@
-.jumbotron {background:rgba(0,0,0,0.50)!important}
+.jumbotron {background:rgba(0,0,0,0.64)!important}
 
 .jumbotron,.jumbg{
   position: relative;
@@ -29,3 +29,14 @@ margin-top:-20px;
   z-index: 1;
 }
 @media screen and (min-width: 480px) {.jumbotron .container {margin-top:20px;}}
+
+.btn-group button {color:#E53935!important;}
+.btn-group, .btn-group-vertical {background:transparent;}
+
+body {background-color:black;}
+
+.jumbotron .container .btn-group .btn.active {background-color:rgba(16,16,16,0.70);color:#e53935;}
+
+.mdi-fix {margin-bottom:4px!important;margin-right:5px!important;}
+
+pre {background:transparent!important;color:#fff!important;}
