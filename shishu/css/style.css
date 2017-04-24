@@ -1,30 +1,42 @@
 /* Format for surnia portrait screenshots/screenrecords */
-  .surniaholder {height:340px;width:180px;background:url(../assets/surnia.png);background-repeat:no-repeat; position: relative;background-size:cover; margin-bottom:20px;}
+  .surniaholder {height:340px;width:180px;background:url(../assets/surnia.png);background-repeat:no-repeat; position: relative;background-size:cover; padding-bottom:10px;padding-top:10px;}
   .surniaholder .content {position: absolute; top:44px;left:15px; width:148px;}
 
 /* Format for surnia landscape screenshots/screenrecords */
-  .surniaholder-land {height:180px;width:340px;background:url(../assets/surnia_land.png);background-repeat:no-repeat; position: relative;background-size:cover; margin-bottom:20px;}
+  .surniaholder-land {height:180px;width:340px;background:url(../assets/surnia_land.png);background-repeat:no-repeat; position: relative;background-size:cover; padding-bottom:20px;}
   .surniaholder-land .content {position: absolute;top:18px;left:46px;width:264px;}
 	
 /* Extras like titles, descriptions and stuff*/
-  .shishutitle {font-family:'BRUSHSTRIKE',sans-serif;font-size:40px;margin-bottom:20px;}
+  .shishutitle {font-family:'BRUSHSTRIKE',sans-serif;font-size:45px;margin-bottom:20px;}
   .shishusubtext {font-family:'Bebas Neue', serif;font-size:30px;}
   .shishudesc {font-family:'Roboto Condensed', monospace}
   .notice {opacity:0.75;}
   .shishutitle .notice {font-size:60%;}
+  .shishuprest {font-size:60px;font-family:'BRUSHSTRIKE',sans-serif;}
+  .shishupress {font-size:40px;font-family:'Bebas Neue', serif;}
 
 /* Temp workaround */
- .romparts{position:static;margin-bottom:60px;}
+ .romparts{padding-bottom:60px; background:rgba(255, 255, 255, 0.66)}
 
+ .jumbotron {background:rgba(0,0,0,0.50);height:60vh;}
+ .jumbg {background:url(../img/bg.jpg); background-position:center;height:60vh;}
+ .jumbostuff {  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 40vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;}
+
+body {background-color: #000000;
+background-image: url(../img/pagebg.png);}
 /* Fixing some media for bigger screens */
 @media screen and (min-width: 960px) {
   /* Format for surnia portrait screenshots/screenrecords */
-    .surniaholder {height:510px;width:270px;background:url(../assets/surnia.png);background-repeat:no-repeat; position: relative;background-size:cover;margin-bottom:0px;}
+    .surniaholder {height:510px;width:270px;background:url(../assets/surnia.png);background-repeat:no-repeat; position: relative;background-size:cover;padding-bottom:0px;padding-top:10px;}
     .surniaholder .content {position: absolute; top:13%;left:22px; width:223px;}
 
   /* Format for surnia landscape screenshots/screenrecords */
-    .surniaholder-land {height:270px;width:510px;background:url(../assets/surnia_land.png);background-repeat:no-repeat; position: relative;background-size:cover;margin-bottom:0px;}
+    .surniaholder-land {height:270px;width:510px;background:url(../assets/surnia_land.png);background-repeat:no-repeat; position: relative;background-size:cover;padding-bottom:0px;padding-top:10px;}
     .surniaholder-land .content {position: absolute;top:9%;left:60px;width:398px;}
   /* Some stuff to style it */
     .romparts{height:550px;}
+    .jumbotron h1.shishutitle {font-size:60px;text-shadow: 2px 2px 4px #000000;}
 }
