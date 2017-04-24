@@ -11,3 +11,14 @@ var interval = setInterval(function() {
    	$('#romtitle').fadeIn();
 }, 5000);
 });
+
+function myOnload() {
+  var ua = navigator.userAgent;
+  if (typeof ua != “undefined” && ua.match(/Android.* 2\.[0 – 2](\.[0 – 9]+)*[^.0 – 9]/i) !== null) {
+    var vid = document.getElementById(“video”);
+    vid.addEventListener(“click”, function() {
+      vid.play();
+    }, false);
+  }
+}
+window.onload = myOnload;
