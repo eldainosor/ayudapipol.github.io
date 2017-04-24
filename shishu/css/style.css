@@ -7,13 +7,13 @@
   .surniaholder-land .content {position: absolute;top:18px;left:46px;width:264px;}
 	
 /* Extras like titles, descriptions and stuff*/
-  .shishutitle {font-family:'BRUSHSTRIKE',sans-serif;font-size:45px;margin-bottom:20px;}
+  .shishutitle {font-family:'BRUSHSTRIKE',sans-serif;font-size:45px;margin-bottom:20px;padding-top:20px;}
   .shishusubtext {font-family:'Bebas Neue', serif;font-size:30px;}
   .shishudesc {font-family:'Roboto Condensed', monospace}
   .notice {opacity:0.75;}
   .shishutitle .notice {font-size:60%;}
-  .shishuprest {font-size:60px;font-family:'BRUSHSTRIKE',sans-serif;}
-  .shishupress {font-size:40px;font-family:'Bebas Neue', serif;}
+  .shishuprest {font-size:40px;font-family:'BRUSHSTRIKE',sans-serif;}
+  .shishupress {font-size:20px;font-family:'Bebas Neue', serif;}
 
 /* Temp workaround */
  .romparts{padding-bottom:60px; background:rgba(255, 255, 255, 0.66)}
@@ -39,4 +39,7 @@ background-image: url(../img/pagebg.png);}
   /* Some stuff to style it */
     .romparts{height:550px;}
     .jumbotron h1.shishutitle {font-size:60px;text-shadow: 2px 2px 4px #000000;}
+    .shishuprest {font-size:60px;}
+    .shishupress {font-size:40px;}
+
 }
