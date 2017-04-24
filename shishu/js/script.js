@@ -1,4 +1,4 @@
-var roms = ['AICP','RR','AOSiP', 'DU','CrDroid','Lineage','XenonHD','AOKP','Darkness Redefined','AquariOS','Purenexus','OmniROM','AOSP Extended'];
+var roms = ['AICP','Resurrection Remix','AOSiP', 'Dirty Unicorns','CrDroid','LineageOS','XenonHD','AOKP','Darkness Redefined','AquariOS','Purenexus','OmniROM','AOSP Extended'];
 
 /*Thx stackoverflow*/
 
