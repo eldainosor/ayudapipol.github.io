@@ -25,6 +25,11 @@
   display: flex;
   align-items: center;}
 
+/* BUtton colors*/
+
+.btn-primary.active, .btn-primary:active {background-color:#175686;}
+.btn-primary {background-color:#2770b0;}
+
 body {background-color: #000000;
 background-image: url(../img/pagebg.png);}
 /* Fixing some media for bigger screens */
@@ -43,3 +48,4 @@ background-image: url(../img/pagebg.png);}
     .shishupress {font-size:40px;}
 
 }
+
