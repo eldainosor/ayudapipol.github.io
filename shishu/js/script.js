@@ -1,4 +1,5 @@
-var roms = ['AICP','Resurrection Remix','AOSiP', 'Dirty Unicorns','CrDroid','LineageOS','XenonHD','AOKP','Darkness Redefined','AquariOS','Purenexus','OmniROM','AOSP Extended'];
+var roms = ['AICP','Resurrection Remix','AOSiP', 'Dirty Unicorns','CrDroid','LineageOS','XenonHD','AOKP','Darkness Redefined','Purenexus','AOSP Extended'];
+var idkroms = ['AquariOS','OmniROM']
 
 /*Thx stackoverflow*/
 
@@ -10,4 +11,10 @@ var interval = setInterval(function() {
    });
    	$('#romtitle').fadeIn();
 }, 5000);
+});
+
+$("#gotocar").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#caracteristicas").offset().top
+    }, 1500);
 });
