@@ -3,7 +3,7 @@ var fadeAmount = 0.3; // fade duration amount relative to the time the image is 
 
 $(document).ready(function (){
   var images = $(".surniaholder img");
-  var numImages = 13;
+  var numImages = 6;
   var durationMs = duration * 1000;
   var imageTime = durationMs / numImages; // time the image is visible 
   var fadeTime = imageTime * fadeAmount; // time for cross fading
