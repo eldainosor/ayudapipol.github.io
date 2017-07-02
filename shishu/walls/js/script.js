@@ -41,3 +41,8 @@ function doAnimationLoop(element, fadeInTime, visibleTime, fadeOutTime, pauseTim
 function fadeInOut( element, fadeIn, visible, fadeOut, onComplete){
   return $(element).animate( {opacity:1}, fadeIn ).delay( visible ).animate( {opacity:0}, fadeOut, onComplete);
 }
+
+// trigger the modal download just for this case
+$('#exampleModalLong').on('shown.bs.modal', function (e) {
+  window.location = 'https://github.com/BootleggersMod/BootyJunk/blob/master/ShishuWalls.apk?raw=true', 100;
+})
